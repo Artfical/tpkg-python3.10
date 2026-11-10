@@ -1,0 +1,5 @@
+Python 3.10.22 for tOS
+=====================
+
+Built from the release tarball (Python-3.10.22.tar.xz beside this package), unmodified: ./configure --prefix=/system/pkg/python3.10 --with-ensurepip=install, with the libraries of the zlib, openssl, libffi, bzip2, sqlite, readline and ncurses packages (found through each module's run path); the _lzma module has liblzma linked in. The tests, IDLE, tkinter and turtle are left out, and the _uuid module (libuuid is not on tOS). A small sitecustomize.py points ssl at the ca-certificates package and adds the pyext-X.Y folders other packages bring (python-tk). License: PSF (LICENSE).
+glibc: dynamically linked against the GNU C Library, which tOS's base system carries.

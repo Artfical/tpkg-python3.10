@@ -1,0 +1,34 @@
+{
+ "name": "python3.10",
+ "version": "3.10.22",
+ "license": "PSF-2.0",
+ "homepage": "https://www.python.org",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "Python-3.10.22.tar.xz"
+ ],
+ "desc": "Python 3.10.22 with pip (an older/other version beside python3): ssl, sqlite3, zlib, bz2, lzma, ctypes, readline, curses",
+ "file": "python3.10-3.10.22.tpkg",
+ "size": 30600599,
+ "sha256": "70fbdeabf5844c305d4956dd224923d994fea274a5cf6fb0b980c82cf3995b92",
+ "unpacked": 98399296,
+ "min_build": 618,
+ "depends": [
+  "zlib",
+  "openssl",
+  "libffi",
+  "bzip2",
+  "sqlite",
+  "readline",
+  "ncurses",
+  "ca-certificates"
+ ],
+ "commands": {
+  "python3.10": "bin/python3.10",
+  "pip3.10": "bin/pip3.10",
+  "pydoc3.10": "bin/pydoc3.10"
+ }
+}
